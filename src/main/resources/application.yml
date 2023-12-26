@@ -1,0 +1,16 @@
+restaurant:
+  name: French Restaurant
+  capacity: 75
+  description: 'Name: ${restaurant.name}. Capacity: ${restaurant.capacity}. Owner: ${restaurant.owner:Andrew}'
+  menu:
+    itemsString: Spaghetti Bolognese,Caesar Salad,Grilled Salmon
+#    List example
+    items:
+      - Spaghetti Bolognese
+      - Caesar Salad
+      - Grilled Salmon
+#   Map example
+    ratings:
+      spaghetti: 5
+      caesar: 4
+      grilled: 4.5
